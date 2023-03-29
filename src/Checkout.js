@@ -1,10 +1,27 @@
 import React from 'react';
 import "./Checkout.css";
+import CheckoutProduct from "./CheckoutProduct";
+import Subtotal from './Subtotal';
+import CurrencyFormat from "react-currency-format";
 
 export default function Checkout() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className='checkout'>
+      <div className="checkout_left">
+        <div>
+          <h2 className="checkout_title">
+            Your Shopping Basket
+          </h2>
+          <CheckoutProduct />
+        </div>
+
+      </div>
+
+      <div className="checkout_right">
+        <Subtotal />
+
+          
+      </div>
     </div>
   )
 }

@@ -13,7 +13,7 @@ function Home() {
                 <div className="home__row">
                     <Product
                     id="1234"
-                    title=" Amazon Basics - Laptop-Trolley, mit schnell laufenden Rollen und leicht zugänglicher Vordertasche - geeignet für Laptops bis 16 Zoll (40 cm)"
+                    title="Amazon Basics - Laptop-Trolley, mit schnell laufenden Rollen und leicht zugänglicher Vordertasche - geeignet für Laptops bis 16 Zoll (40 cm)"
                     price={12.99}
                     rating={2}
                     image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81e-8Or4d7L._AC_SL1500_.jpg" />
@@ -42,7 +42,7 @@ function Home() {
                     
                     <Product
                     id="4234"
-                    title="Amazon Basics - PC-Lautsprecher mit dynamischem Sound, USB-Betrieb, Schwarz, 1 Paar "
+                    title="Amazon Basics - PC-Lautsprecher mit dynamischem Sound, USB-Betrieb, Schwarz, 1 Paar"
                     price={14.99}
                     rating={4}
                     image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81IEOd-7PxL._AC_SL1500_.jpg" />
@@ -52,7 +52,7 @@ function Home() {
                 <div className="home__row">
                     <Product
                     id="5234"
-                    title="Amazon Basics Aktenvernichter, 7-8 Blatt, Streifenschnitt, CD-Schredder "
+                    title="Amazon Basics Aktenvernichter,7-8 Blatt, Streifenschnitt, CD-Schredder"
                     price={33.99}
                     rating={4}
                     image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71nU5j6fH-L._AC_SL1500_.jpg" />
