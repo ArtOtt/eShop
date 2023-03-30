@@ -33,7 +33,7 @@ function Product({id, title, image, price, rating}) {
                     .map((_, i) => (
                        <p>★</p>
                     ))}  
-                    </div>
+                </div>
                 
             </div>
 
