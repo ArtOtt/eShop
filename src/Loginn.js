@@ -4,10 +4,15 @@ import "./Loginn.css";
 import { Link, useHistory } from "react-router-dom";
 import StoreIcon from '@mui/icons-material/Store';
 
+
+
+
 export default function Login() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+
 
   return (
     <div className='login'>
@@ -27,10 +32,10 @@ export default function Login() {
 
                 <h5>Password</h5>
                 <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
-                <button type="submit" className="login__signInButton">Sign In</button>
+                <button type="submit" className="login__signInButton" >Sign In</button>
             </form>
 
-            <button className="login__registerButton">Create your Account</button>
+            <button className="login__registerButton" >Create your Account</button>
         </div>
     </div>
   )
